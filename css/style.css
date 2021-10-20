@@ -1,4 +1,22 @@
+* {
+  box-sizing: border-box;
+}
 header {
   background-color: black;
   color: #fff;
+}
+
+.product {
+  width: 20vw;
+  margin-left: 1vw;
+  display: inline-block;
+  background-color: #e0e0e0;
+}
+
+.product-image {
+  width: fit-content;
+}
+
+.product-image img {
+  width: 100%;
 }
